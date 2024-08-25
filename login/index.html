@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url('x3bmsw6mx7ed1.jpeg')] min-h-screen bg-cover bg-center flex justify-center items-center">
+  <div class="bg-black bg-opacity-50 w-[80%] max-w-[500px] rounded-3xl shadow-[0_0_25px_0_rgba(0,0,0,0.5)] backdrop-blur-sm p-8">
+    <h1 class="text-white text-center text-4xl font-bold mb-8 animate-pulse">Login</h1>
+
+    <form class="space-y-6">
+      <label class="block">
+        <span class="text-white font-semibold">Email Address</span>
+        <input type="email" name="email" class="mt-2 block w-full bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-50 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-300" placeholder="Enter your email">
+        <span class="text-green-400 mt-2 text-sm">Valid Email</span>
+      </label>
+      
+      <label class="block">
+        <span class="text-white font-semibold">Password</span>
+        <input type="password" name="password" class="mt-2 block w-full bg-white bg-opacity-20 text-white placeholder-white placeholder-opacity-50 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-red-400 transition-all duration-300" placeholder="Enter your password">
+        <span class="text-red-400 mt-2 text-sm">Invalid Password</span>
+      </label>
+
+      <div class="text-center mt-6">
+        <button type="submit" class="w-full bg-gradient-to-r from-green-400 to-blue-500 text-white py-3 rounded-lg font-semibold text-xl tracking-wide hover:scale-105 transition-transform duration-300 active:scale-95">Login</button>
+      </div>
+    </form>
+  </div>
+  
+    <div class="absolute">
+      <h1 class="text-white">Made by <a href="https://github.com/qeqqe" target="_blank">@qeqqe</a></h1>
+      </h1>
+    </div>
+</body>
+</html>
